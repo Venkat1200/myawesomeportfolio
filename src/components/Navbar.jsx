@@ -1,6 +1,15 @@
 import React from "react";
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaLinkedinIn,
+} from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -44,7 +53,24 @@ const Navbar = () => {
         <li className="py-6 text-4xl">CONTACT</li>
       </ul>
 
-      <div className="hidden"></div>
+      <div className=" text-black text-2xl  flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li>
+            <a href="/">
+              Linkedin <FaLinkedin />
+            </a>
+            <a href="/">
+              Github <FaGithub />
+            </a>
+            <a href="/">
+              Resume <BsFillPersonLinesFill />
+            </a>
+            <a href="/">
+              Gmail <HiOutlineMail />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
