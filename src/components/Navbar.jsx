@@ -53,20 +53,26 @@ const Navbar = () => {
         <li className="py-6 text-4xl">CONTACT</li>
       </ul>
 
-      <div className=" text-black text-2xl  flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li>
-            <a href="/">
+      <div className=" hidden text-black text-2xl  lg:flex fixed flex-col top-[40%] left-0">
+        <ul className="flex flex-col ">
+          <li className="w-[160px] h-[50px]  flex justify-between items-center text-white  ml-[-110px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-r-lg ">
+            <a className=" flex justify-between items-center w-full  " href="/">
               Linkedin <FaLinkedin />
             </a>
-            <a href="/">
+          </li>{" "}
+          <li className="w-[160px] h-[50px]  flex justify-between items-center text-white ml-[-110px] hover:ml-[-10px] duration-300 bg-[#333333] rounded-r-lg">
+            <a className=" flex justify-between items-center w-full  " href="/">
               Github <FaGithub />
             </a>
-            <a href="/">
-              Resume <BsFillPersonLinesFill />
-            </a>
-            <a href="/">
+          </li>
+          <li className="w-[160px] h-[50px] flex justify-between items-center text-white  ml-[-110px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] rounded-r-lg">
+            <a className=" flex justify-between items-center w-full  " href="/">
               Gmail <HiOutlineMail />
+            </a>
+          </li>
+          <li className="w-[160px] h-[50px] flex justify-between items-center text-white ml-[-110px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-r-lg">
+            <a className=" flex justify-between items-center w-full " href="/">
+              Resume <BsFillPersonLinesFill />
             </a>
           </li>
         </ul>
