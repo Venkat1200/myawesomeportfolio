@@ -6,8 +6,8 @@
 
 @layer base {
   html {
-    @apply text-blue-600;
-    background-color: rgb(243, 243, 235);
+    @apply text-black;
+    background-color: rgb(241, 241, 184);
   }
   body {
     @apply font-[Open-Sans];
@@ -16,6 +16,9 @@
     @apply px-4;
     @apply cursor-pointer;
   }
+  button-1 {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+  }
 }
 
 .content-div {
@@ -23,4 +26,12 @@
   background-size: cover;
   background-position: center;
   height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    hsla(240, 3%, 13%, 0.8)
+  ) !important;
 }

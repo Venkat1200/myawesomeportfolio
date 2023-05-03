@@ -16,8 +16,7 @@ const Skills = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-fill h-full text-zinc-950">
         <div>
           <p className="text-4xl font-bold inline border-b-2 border-black   ">
-            {" "}
-            Experience
+            SKILLS
           </p>
           <p className="py-4 text-2xl">
             These are the some of the technologies I have worked with during my
