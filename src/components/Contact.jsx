@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen  flex justify-center items-center p-4"
+      className="w-full h-screen  flex justify-center items-center p-4 "
     >
       <form
         method="POST"
@@ -20,24 +20,24 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#868383] p-2"
+          className="bg-[#868383] p-2 hover:bg-white"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#868383]"
+          className="my-4 p-2 bg-[#868383] hover:bg-white"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-[#868383] p-2"
+          className="bg-[#868383] hover:bg-white p-2"
           name="message"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-zinc-950 border-2 hover:bg-gray-500 hover:border-black px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-zinc-950 border-2 hover:bg-gray-500 hover:border-black hover:text-white px-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
       </form>

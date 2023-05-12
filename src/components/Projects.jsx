@@ -1,5 +1,9 @@
 import React from "react";
 import INDISH from "../assests/INDISH WEBSITE.png";
+import MYPORTFOLIO from "../assests/myportfolio Screenshot.png";
+import MEMEGENERATOR from "../assests/MemeApp.png";
+import JULEA from "../assests/jule.png";
+import HACKER from "../assests/Hack-news.png";
 
 const Projects = () => {
   return (
@@ -15,19 +19,23 @@ const Projects = () => {
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4 text-center py-8 ">
           <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
+            <img className="w-50 mx-auto" src={INDISH} alt="INDISH-Icon" />
+            <p className="py-2 bg-white">INDISH e-commerce Website </p>
+            <div className="flex flex-row justify-around items-center bg-black">
+              <button className="button-1">DEMO</button>
+              <button className="button-1">CODE</button>
+            </div>
+          </div>
+          <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
             <img
               className="w-50 mx-auto"
-              src={INDISH}
+              src={MEMEGENERATOR}
               alt="INDISH WEBSITE IMAGE  Icon"
             />
-            <p className="py-2">INDISH e-commerce Website </p>
-            <div className="flex flex-row justify-around items-center">
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                DEMO
-              </button>
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                CODE
-              </button>
+            <p className="py-2 bg-white">Meme-Generator </p>
+            <div className="flex flex-row justify-around items-center bg-black">
+              <button className="button-1 ">DEMO</button>
+              <button className="button-1">CODE</button>
             </div>
           </div>
           <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
@@ -36,24 +44,8 @@ const Projects = () => {
               src={INDISH}
               alt="INDISH WEBSITE IMAGE  Icon"
             />
-            <p className="py-2">Meme-Generator </p>
-            <div className="flex flex-row justify-around items-center">
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg ">
-                DEMO
-              </button>
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                CODE
-              </button>
-            </div>
-          </div>
-          <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
-            <img
-              className="w-50 mx-auto"
-              src={INDISH}
-              alt="INDISH WEBSITE IMAGE  Icon"
-            />
-            <p className="py-2">Decentralized Blockchain App </p>
-            <div className="flex flex-row justify-around items-center">
+            <p className="py-2 bg-white">Decentralized Blockchain App </p>
+            <div className="flex flex-row justify-around items-center bg-black">
               <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
                 CODE
               </button>
@@ -63,47 +55,37 @@ const Projects = () => {
           <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
             <img
               className="w-50 mx-auto"
-              src={INDISH}
+              src={MYPORTFOLIO}
               alt="INDISH WEBSITE IMAGE  Icon"
             />
-            <p className="py-2">My Portfolio </p>
-            <div className="flex flex-row justify-around items-center">
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                DEMO
-              </button>
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                CODE
-              </button>
+            <p className="py-2 bg-white">My Portfolio </p>
+            <div className="flex flex-row justify-around items-center bg-black">
+              <button className="button-1">DEMO</button>
+              <button className="button-1">CODE</button>
             </div>
           </div>
 
           <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
             <img
               className="w-50 mx-auto"
-              src={INDISH}
+              src={HACKER}
               alt="INDISH WEBSITE IMAGE  Icon"
             />
-            <p className="py-2">Decentralized Blockchain App</p>
-            <div className="flex flex-row justify-around items-center">
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                DEMO
-              </button>
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                CODE
-              </button>
+            <p className="py-2 bg-white">Hacker-news App</p>
+            <div className="flex flex-row justify-around items-center bg-black">
+              <button className="button-1">DEMO</button>
+              <button className="button-1">CODE</button>
             </div>
           </div>
           <div className="shadow-md shadow-[#0a0a0a] hover:scale-110 duration-500 ">
             <img
-              className="w-50 mx-auto"
-              src={INDISH}
+              className="w-50 object-cover  mx-auto"
+              src={JULEA}
               alt="INDISH WEBSITE IMAGE  Icon"
             />
-            <p className="py-2">JULEA framework</p>
-            <div className="flex flex-row justify-around items-center">
-              <button className=" bg-black text-white m-4 py-2 px-3 rounded-lg">
-                CODE
-              </button>
+            <p className="py-2 bg-white">JULEA framework</p>
+            <div className="flex flex-row justify-around items-center bg-black">
+              <button className="button-1">CODE</button>
             </div>
           </div>
         </div>

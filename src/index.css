@@ -16,8 +16,8 @@
     @apply px-4;
     @apply cursor-pointer;
   }
-  button-1 {
-    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+  .button-1 {
+    @apply bg-black text-white m-4 py-2 px-3 rounded-lg;
   }
 }
 
