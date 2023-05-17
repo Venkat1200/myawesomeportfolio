@@ -41,6 +41,11 @@ const Navbar = () => {
             PROJECTS
           </Link>
         </li>
+        <li>
+          <Link to="Education" smooth={true} duration={500}>
+            EDUCATION
+          </Link>
+        </li>
 
         <li>
           <Link to="contact" smooth={true} duration={500}>
@@ -78,9 +83,24 @@ const Navbar = () => {
             SKILLS
           </Link>
         </li>
-        <li onClick={handleClick} className="py-6 text-4xl">
-          <Link to="projects" smooth={true} duration={500}>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duration={500}
+          >
             PROJECTS
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="Education"
+            smooth={true}
+            duration={500}
+          >
+            EDUCATION
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -106,16 +126,6 @@ const Navbar = () => {
               href="https://github.com/Venkat1200"
             >
               Github <FaGithub />
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center text-white  ml-[-110px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] rounded-r-lg">
-            <a className=" flex justify-between items-center w-full  " href="/">
-              Gmail <HiOutlineMail />
-            </a>
-          </li>
-          <li className="w-[160px] h-[50px] flex justify-between items-center text-white ml-[-110px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded-r-lg">
-            <a className=" flex justify-between items-center w-full " href="/">
-              Resume <BsFillPersonLinesFill />
             </a>
           </li>
         </ul>

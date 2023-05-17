@@ -7,7 +7,7 @@
 @layer base {
   html {
     @apply text-black;
-    background-color: rgb(241, 241, 184);
+    background-color: rgb(247, 246, 247);
   }
   body {
     @apply font-[Open-Sans];
