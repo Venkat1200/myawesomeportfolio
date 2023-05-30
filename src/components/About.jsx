@@ -6,7 +6,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-black">
+            <p className="text-4xl font-bold inline border-b-4 border-black font-headfont">
               About
             </p>
           </div>
@@ -18,11 +18,13 @@ const About = () => {
           </div>
           <div>
             <p className="text-2xl">
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              I am a dedicated software professional driven by a passion for
+              crafting exceptional solutions that positively impact lives. With
+              my expertise, I specialize in delivering tailored software
+              solutions for diverse clientele, spanning from individuals and
+              small businesses to large enterprise corporations. Imagine having
+              an expert software partner readily accessible, empowering you to
+              unlock the full potential of your ideas.
             </p>
           </div>
         </div>

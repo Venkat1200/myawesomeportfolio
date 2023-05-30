@@ -2,10 +2,13 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div name="Education" className="w-full md:h-screen  text-zinc-950">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col border-orange-500  justify-center w-full h-full">
+    <div
+      name="Education"
+      className="w-full lg:h-screen md:fit-screen text-zinc-950"
+    >
+      <div className="max-w-[1000px]  mx-auto p-4 flex flex-col border-orange-500  justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-2 border-black">
+          <p className="text-4xl font-headfont  font-bold inline border-b-2 border-black">
             Education
           </p>
           <p className="py-6 text-2xl">Please have a look at my Education</p>
