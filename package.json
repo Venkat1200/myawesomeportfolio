@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Venkat1200.github.io/myawesomeportfolio",
   "name": "myawesomeportfolio",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +16,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "npm run build && surge ./build/ your-surge-url.surge.sh",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
