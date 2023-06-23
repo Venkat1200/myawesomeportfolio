@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -10,9 +8,9 @@ const Navbar = () => {
 
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-3 bg-slate-950 text-red-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-3 bg-stone-900 ">
       <div className="cursor-pointer">
-        <h1 className="text-2xl">
+        <h1 className="text-4xl text-rose-700">
           <Link to="home" smooth={true} duration={500}>
             VENKAT KATKOOR
           </Link>
@@ -23,33 +21,45 @@ const Navbar = () => {
       <ul className=" hidden md:flex ">
         <li>
           <Link to="home" smooth={true} duration={500}>
-            HOME
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              HOME
+            </button>
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
-            ABOUT
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              ABOUT
+            </button>
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            SKILLS
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              SKILLS
+            </button>
           </Link>
         </li>
         <li>
           <Link to="projects" smooth={true} duration={500}>
-            PROJECTS
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              PROJECTS
+            </button>
           </Link>
         </li>
         <li>
           <Link to="Education" smooth={true} duration={500}>
-            EDUCATION
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              EDUCATION
+            </button>
           </Link>
         </li>
 
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            CONTACT
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md cursor-pointer">
+              CONTACT
+            </button>
           </Link>
         </li>
       </ul>

@@ -6,7 +6,7 @@ const Education = () => {
       name="Education"
       className="w-full lg:h-screen md:fit-screen text-zinc-950"
     >
-      <div className="max-w-[1000px]  mx-auto p-4 flex flex-col border-orange-500  justify-center w-full h-full">
+      <div className="max-w-[1300px]  mx-auto p-4 flex flex-col border-orange-500  justify-center w-full h-full">
         <div>
           <p className="text-4xl font-headfont  font-bold inline border-b-2 border-black">
             Education
